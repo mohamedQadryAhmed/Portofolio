@@ -143,6 +143,111 @@ nav {
 .hamburger-icon span:last-child {
     transform: none;
 }
-
-
 /* end side menu  */
+
+/* start profile section  */
+section {
+    padding-top: -4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.profile-img {
+    display: flex;
+    margin: auto 0;
+}
+
+.profile-img img {
+    width: 350px;
+    height: 350px;
+    border-radius:50%;
+}
+
+.profile-info {
+    align-self: center;
+    text-align: center;
+}
+
+.profile-info p {
+    font-weight: 600;
+}
+
+.profile-info p:first-child {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+.profile-info .name {
+    font-size: 3.2rem;
+    letter-spacing: 0.2rem;
+}
+
+.profile-info .title {
+    font-size: 2.4rem;
+    padding-bottom: 1.2rem;
+}
+
+.profile-info .socials-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem ;
+    gap: 2.5rem;
+}
+
+.profile-info .socials-info a {
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.profile-info .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 0.3s ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn-cv , .btn-contact {
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-cv:hover , .btn-contact:hover {
+    cursor: pointer;
+}
+
+.btn-cv, .btn-contact:hover {
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+.btn-cv:hover {
+    background: #000;
+}
+
+.btn-contact {
+    background: none;
+}
+
+.btn-contact:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
